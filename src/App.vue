@@ -1,28 +1,59 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div>
+    <home-header ></home-header>
+    <home-swiper :list='swiperList'></home-swiper>
+    <home-icon :ilist='iconList'></home-icon>
+    <home-center></home-center>
+    <home-hot-list :list='hotList'></home-hot-list>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import HomeHeader from './components/Header'
+import HomeSwiper from './components/Swiper'
+import HomeIcon from './components/Icon'
+import HomeCenter from './components/Center'
+import HomeHotList from './components/HotList'
+import axios from 'axios'
 
 export default {
-  name: 'app',
+  name:'App',
   components: {
-    HelloWorld
-  }
+    HomeHeader,
+    HomeSwiper,
+    HomeIcon,
+    HomeCenter,
+    HomeHotList
+  },
+  data(){
+    return {
+      swiperList:[],
+      iconList:[],
+      hotList:[]
+    }
+  },
+  methods:{
+    getHomeInfo(){
+      axios.get('/index.json')
+          .then(this.getHomeInfoSucc)
+    },
+    getHomeInfoSucc(res){
+      res=res.data;
+      if(res.ret && res.data){
+      const data=res.data;
+      this.swiperList=data.swiperList;
+      this.iconList=data.iconList;
+      this.hotList=data.hotList
+      }
+    }
+  },
+    mounted(){
+    this.getHomeInfo();
+    }
 }
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
 </style>
+
