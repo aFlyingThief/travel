@@ -20,9 +20,15 @@ export default {
   props:{
       ilist:Array
   },
-  swiperOption:{
-        pagination:'.swiper-pagination',
-  },
+  data(){
+      return {
+        swiperOption:{
+                pagination:{
+                    el:'.swiper-pagination',
+                }
+        },
+      }
+   },
    computed: {
     pages () {
       const pages = [];
@@ -43,7 +49,7 @@ export default {
 .icons{
     overflow: hidden;
     height:0;
-    padding-bottom:50%;
+    padding-bottom:60%;
     background: white;
 }
 .icon{

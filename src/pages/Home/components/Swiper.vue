@@ -19,7 +19,9 @@ export default {
     return {
       size:'100%',
       swiperOption:{
-        pagination:'.swiper-pagination',
+        pagination:{
+          el:'.swiper-pagination',
+        },
         autoplay:true,
         loop:true,
       }
@@ -41,6 +43,8 @@ export default {
    display:flex;
    width:100%;
  }
- 
+ .swiper-pagination-bullets{
+   color:white;
+ }
 
 </style>
