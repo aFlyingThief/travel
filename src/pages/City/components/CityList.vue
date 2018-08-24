@@ -8,7 +8,10 @@
             <span class="iconfont">&#xe632;</span>
             <input type="text" placeholder="城市搜索" v-model="keyword" />
             <ul class="search-city-list">
-                <li v-for="item in searchList" :key="item.id">{{item.name}}</li>
+                <li @click="handlerCityClick(item.name)"
+                    v-for="item in searchList" 
+                    :key="item.id">{{item.name}}
+                </li>
             </ul>
         </div>
         <div class="hot-city">
@@ -62,6 +65,10 @@
                 this.$router.push('/');
             },
             allCityClick(city){
+                this.$store.commit('mountCity',city);
+                this.$router.push('/');
+            },
+            handlerCityClick(city){
                 this.$store.commit('mountCity',city);
                 this.$router.push('/');
             }
@@ -135,14 +142,13 @@
      left:0;
      right:0;
      list-style-type: none;
-     background: rgb(255, 255, 255);
-     width:100%;
-     border-radius:0.2rem;
+     border-radius:1rem;
      color:rgb(49, 49, 49);
  }
  .search-city-list li{
      width:90%;
      margin:auto;
+     background: rgb(230, 230, 230);
  }
 .list-title{
     line-height: 0.7rem;
