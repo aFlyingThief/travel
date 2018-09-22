@@ -37,13 +37,13 @@ export default {
     }
   },
   computed:{
-    uri(){
-      return this.$store.state.URI
+    url(){
+      return this.$store.state.URL
     }
   },
   methods:{
     getHomeInfo(){
-      axios.get(this.uri)
+      axios.get(this.url)
           .then(this.getHomeInfoSucc)
     },
     getHomeInfoSucc(res){

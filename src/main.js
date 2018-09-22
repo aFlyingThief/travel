@@ -8,8 +8,9 @@ import './assets/styles/border.css'
 import './assets/styles/iconfont.css'
 import 'swiper/dist/css/swiper.css'
 
-Vue.config.productionTip = false;
 Vue.use(VueAwesomeSwiper);
+Vue.config.productionTip = false;
+
 new Vue({
   router,
   store,

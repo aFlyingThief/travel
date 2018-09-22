@@ -5,7 +5,7 @@ Vue.use(Vuex);
 export default new Vuex.Store({
     state:{
         city:localStorage.city||'威海',
-        URI:'/index.json'
+        URL:'/index.json'
     },
     mutations: {
         mountCity(state,city) {

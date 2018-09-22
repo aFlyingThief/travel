@@ -4,13 +4,15 @@
             <img src="http://img1.qunarzz.com/piao/fusion/1711/89/ebc329f16c55bb02.png" />
             猜你喜欢
         </div>
-        <div class="guess-content" v-for='item in list' :key='item.id'>
+        <router-link :to="'/CityDetail/'+item.id" v-for='item in list' :key='item.id'>
+        <div class="guess-content" >
             <img :src="item.imgUrl" />
             <ul>
                 <li>{{item.title}}</li>
                 <li>￥<span>{{item.price}}</span>起<span>{{item.city}}</span></li>
-            </ul>
+            </ul> 
         </div>
+        </router-link>
     </div>
 </template>
 
@@ -44,9 +46,6 @@ export default{
         float:left;
         width:73%;
     }
-/*     .guess-content li{
-        
-    } */
     .guess-content li{
         margin: 0.28rem 0;
     }
