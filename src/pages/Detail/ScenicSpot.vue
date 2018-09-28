@@ -27,15 +27,16 @@ export default {
         return {
             imglist:[],
             result:'none',
+            num:'',
             swiperOption:{
-                initialSlide :'',
+                initialSlide :0,
             }
         }
     },
     methods:{
         bigDisplay(){
             this.result='block';
-            this.swiperOption.initialSlide=parseInt(event.target.id);
+            this.num=parseInt(event.target.id);
         },
         bigDisplays(){
             this.result='none';
@@ -52,8 +53,12 @@ export default {
             }
         }
     },
-    mounted(){
+    mounted(){   
     this.getCityInfo();
+    },
+    updated(){
+        this.swiperOption.initialSlide=this.num;
+        console.log(this.swiperOption.initialSlide);
     }
 }
 </script>

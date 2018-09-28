@@ -4,12 +4,12 @@
             <img src="http://img1.qunarzz.com/piao/fusion/1711/89/ebc329f16c55bb02.png" />
             猜你喜欢
         </div>
-        <router-link :to="'/CityDetail/'+item.id" v-for='item in list' :key='item.id'>
+        <router-link style="display:block" :to="'/CityDetail/'+item.id" v-for='item in list' :key='item.id'>
         <div class="guess-content" >
             <img :src="item.imgUrl" />
             <ul>
                 <li>{{item.title}}</li>
-                <li>￥<span>{{item.price}}</span>起<span>{{item.city}}</span></li>
+                <li><span class="uio">￥{{item.price}}</span>起<span>{{item.city}}</span></li>
             </ul> 
         </div>
         </router-link>
@@ -34,32 +34,46 @@ export default{
         height:0.3rem;margin-top:-0.1rem;
     }
     .guess-content{
-        width:94%;
+        display: flex;
+        align-items:center;
         overflow: hidden;
-        margin:0.2rem auto;
+        margin:0.2rem;
+        color: #1a1a1a;
+        font-family:Sans-serif；
     }
     .guess-content img{
-        width:27%;
-        float:left;
+        width:30%;
     }
     .guess-content ul{
-        float:left;
-        width:73%;
+        width:70%;
+        display: inline-block;
+        
     }
     .guess-content li{
         margin: 0.28rem 0;
+        margin-left:0.2rem;   
     }
     .guess-content span{
         font-size:0.28rem;
     }
-    .guess-content li:nth-of-type(1){
-        font-size: 1.2em;    
+    .guess-content li:nth-of-type(1){ 
+        font-size: 1.3em;
+    }
+    .guess-content li:nth-of-type(2){ 
+        color:#404040;
+        position: relative;
     }
     .guess-content li:nth-of-type(2) span:first-of-type{
-        font-size: 1.3em;
-        color:rgb(255, 181, 43)
+        font-size: 1.5em;
+        color:#ff7500
     }
     .guess-content li:nth-of-type(2) span:last-of-type{
-        float:right;
+        position:absolute;
+        bottom: 0;
+        right:0;
     }
+    .guess-content li:nth-of-type(2)::first-letter{
+        font-size:0.5em;
+    }
+
 </style>

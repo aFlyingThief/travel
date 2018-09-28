@@ -17,7 +17,8 @@ import axios from 'axios';
         data(){
             return {
                 displayImg:'',
-                name:''
+                name:'',
+                i:0
             }
         },
         methods:{
@@ -26,12 +27,17 @@ import axios from 'axios';
             .then(this.getCityInfoSucc)
         },
         getCityInfoSucc(res){
-        res=res.data;
-        if(res.ret && res.data){
-        const data=res.data;
-        this.displayImg=data[0].imgurl;
-        this.name=data[0].name;
-        }
+            res=res.data;
+            if(res.ret && res.data){
+                const data=res.data;
+                for(let i=0;i<data.length;i++){
+                    if(this.$route.params.id==data[i].id){
+                        this.displayImg=data[i].imgurl;
+                        this.name=data[i].name;
+                    }
+                }
+                
+            }
         }
   },
     mounted(){
