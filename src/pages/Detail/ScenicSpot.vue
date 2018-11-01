@@ -58,7 +58,6 @@ export default {
     },
     updated(){
         this.swiperOption.initialSlide=this.num;
-        console.log(this.swiperOption.initialSlide);
     }
 }
 </script>

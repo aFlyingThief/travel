@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div style="background-color:white;margin-top:0.5em">
         <div class="guess-title">
             <img src="http://img1.qunarzz.com/piao/fusion/1711/89/ebc329f16c55bb02.png" />
             猜你喜欢
@@ -25,29 +25,28 @@ export default{
 }
 </script>
 
-<style>
+<style scoped lang="less">
     .guess-title{
         line-height: 0.56rem;
-    }
-    .guess-title img{
+        img{
         width:0.3rem;
-        height:0.3rem;margin-top:-0.1rem;
+        height:0.3rem;
+        margin-top:-0.1rem;
+        }
     }
     .guess-content{
         display: flex;
         align-items:center;
         overflow: hidden;
         margin:0.2rem;
-        color: #1a1a1a;
-        font-family:Sans-serif；
-    }
-    .guess-content img{
-        width:30%;
-    }
-    .guess-content ul{
-        width:70%;
-        display: inline-block;
-        
+        color: #2c2c2c;
+        img{
+            width:30%;
+        }
+        ul{
+            width:70%;
+            display: inline-block;  
+        }
     }
     .guess-content li{
         margin: 0.28rem 0;

@@ -37,8 +37,8 @@ export default {
     }
   },
   computed:{
-    url(){
-      return this.$store.state.URL
+     url(){
+      return this.$store.state.URL[this.$store.state.spell];
     }
   },
   methods:{
@@ -59,10 +59,9 @@ export default {
   },
     mounted(){
     this.getHomeInfo();
-    }
+    },
 }
 </script>
 
 <style>
-
 </style>

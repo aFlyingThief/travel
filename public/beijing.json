@@ -1,0 +1,229 @@
+{
+    "ret": true,
+    "data": {
+      "swiperList": [{
+          "id": "0001",
+          "imgUrl": "http://img1.qunarzz.com/piao/fusion/1809/31/da037478f37cf202.jpg_750x200_a02cf862.jpg"
+        },{
+          "id": "0002",
+          "imgUrl": "http://img1.qunarzz.com/piao/fusion/1810/76/3b0c44d5d5d37c02.jpg_750x200_5a0f8746.jpg"
+        },{
+          "id": "0003",
+          "imgUrl": "http://img1.qunarzz.com/piao/fusion/1809/d4/e298dff35d3af802.jpg_750x200_9b0d56c1.jpg"
+        },{
+          "id": "0004",
+          "imgUrl": "http://img1.qunarzz.com/piao/fusion/1810/af/30ffcf34e9819f02.jpg_750x200_736b7236.jpg"
+        },{
+          "id": "0005",
+          "imgUrl": "http://img1.qunarzz.com/piao/fusion/1809/8a/ef38d29f2791f02.jpg_750x200_c2defee1.jpg"
+        },{
+          "id": "0006",
+          "imgUrl": "http://img1.qunarzz.com/piao/fusion/1809/c6/2467595fffc3b302.jpg_750x200_cca13d51.jpg"
+        }],
+      "iconList": [{
+          "id": "0001",
+          "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png",
+          "desc": "景点门票"
+        }, {
+          "id": "0002",
+          "imgUrl": "http://img1.qunarzz.com/piao/fusion/1804/ff/fdf170ee89594b02.png",
+          "desc": "北京必游"
+        }, {
+          "id": "0003",
+          "imgUrl": "http://img1.qunarzz.com/piao/fusion/1804/5a/13ceb38dcf262f02.png",
+          "desc": "一日游"
+        }, {
+          "id": "0004",
+          "imgUrl": "http://img1.qunarzz.com/piao/fusion/1804/5a/13ceb38dcf262f02.png",
+          "desc": "文化古迹"
+        }, {
+          "id": "0005",
+          "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/76/eb88861d78fb9902.png",
+          "desc": "动植物园"
+        }, {
+          "id": "0006",
+          "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/6c/9e54a8540fee0102.png",
+          "desc": "故宫"
+        }, {
+          "id": "0007",
+          "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/47/c2b659e048b11602.png",
+          "desc": "野生动物园"
+        }, {
+          "id": "0008",
+          "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/ab/6f7d6e44963c9302.png",
+          "desc": "泡温泉"
+        }, {
+          "id": "0009",
+          "imgUrl": "https://img1.qunarzz.com/piao/fusion/1803/20/831d62d2e1c7be02.png",
+          "desc": "打卡圣地"
+        },{
+          "id": "0010",
+          "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/80/416c6ab3368d1f02.png",
+          "desc": "全部玩乐"
+        }],
+        "hotList": [{
+          "id": "0001",
+          "imgUrl": "http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_250x250_0fc722c0.jpg",
+          "desc": "故宫",
+          "price":"20",
+          "ranking":"http://img1.qunarzz.com/piao/fusion/1710/ab/159673b63e6ca702.png"
+        }, {
+          "id": "0002",
+          "imgUrl": "http://img1.qunarzz.com/sight/p0/1505/f5/f5f45e1a83537bcb.water.jpg_250x250_63e3520a.jpg",
+          "desc": "圆明园",
+          "price":"80",
+          "ranking":"http://img1.qunarzz.com/piao/fusion/1710/2d/36d0c4adaebbbc02.png"
+        }, {
+          "id": "0003",
+          "imgUrl": "http://img1.qunarzz.com/sight/p0/1506/e8/e87354c876fd6c38.water.jpg_250x250_b93724e5.jpg",
+          "desc": "北宫国家公园",
+          "price":"80",
+          "ranking":"http://img1.qunarzz.com/piao/fusion/1710/67/edc47ffef9e96b02.png"
+        }, {
+          "id": "0004",
+          "imgUrl": "http://img1.qunarzz.com/sight/p0/1501/40/40b2b6c951b28fdd.water.jpg_250x250_ecfa0df2.jpg",
+          "desc": "水立方",
+          "price":"76"
+        }, {
+          "id": "0005",
+          "imgUrl": "http://img1.qunarzz.com/sight/p0/1508/89/895a1b7add84f23faca053ce9e3153db.water.jpg_250x250_6c4c9885.jpg",
+          "desc": "北京欢乐谷",
+          "price":"15"
+        }, {
+          "id": "0006",
+          "imgUrl": "http://img1.qunarzz.com/sight/p0/1801/bf/bfd58fbb6aec7a15a3.img.jpg_250x250_3d3e396f.jpg",
+          "desc": "故宫礼物",
+          "price":"15"
+        }],
+      "guessYouLove":[{
+        "id": "0001",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1507/fa/fa750b3a735af5d6.img.jpg_200x200_2cbaa78e.jpg",
+        "title": "刘公岛",
+        "price":"58",
+        "city":"威海市"
+      },{
+        "id": "0002",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1605/51/51c6e8ca4a61fcba90.img.jpg_200x200_4a302a62.jpg",
+        "title": "福地传奇水上乐园",
+        "price":"77",
+        "city":"南海新区"
+      },{
+        "id": "0003",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1703/f7/f7dc58327741a112a3.water.jpg_200x200_dddc9563.jpg",
+        "title": "威海天沐温泉",
+        "price":"98",
+        "city":"文登区"
+      },{
+        "id": "0004",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1506/e6/4de6d823f4044c2849b2a9fadfe8b31c.water.jpg_200x200_83848acb.jpg",
+        "title": "神雕山野生动物自然保护区",
+        "price":"14.9",
+        "city":"西霞口"
+      },{
+        "id": "0005",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1704/43/43080ff8205a14dea3.img.jpg_200x200_76f50308.jpg",
+        "title": "《神游传奇》秀",
+        "price":"189",
+        "city":"威海华夏..."
+      },{
+        "id": "0006",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/201405/15/4e713dbe6828f99bea283915f9ea2029.jpg_200x200_d41ae78f.jpg",
+        "title": "成山头",
+        "price":"14.9",
+        "city":"荣成市"
+      },{
+        "id": "0007",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1603/73/731866c822b9e75e90.img.jpg_200x200_30b39770.jpg",
+        "title": "西霞口",
+        "price":"14.9",
+        "city":"荣成市"
+      },{
+        "id": "0008",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1603/73/731866c822b9e75e90.img.jpg_200x200_30b39770.jpg",
+        "title": "威海侨乡号游轮",
+        "price":"88",
+        "city":"威海市"
+      },{
+        "id": "0009",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1704/1c/1c3f6fdcbd69754da3.img.jpg_200x200_93a52ead.jpg",
+        "title": "威海银滩梦幻王国",
+        "price":"48",
+        "city":"乳山市银..."
+      },{
+        "id": "0010",
+        "imgUrl": "http://img1.qunarzz.com/tuan/team2/1507/d3/5d4c2ed54fbafc.jpg_200x200_57ae5c55.jpg",
+        "title": "汤泊温泉度假区",
+        "price":"126.5",
+        "city":"威海市"
+      },{
+        "id": "0011",
+        "imgUrl": "http://img1.qunarzz.com/sight/p72/201211/04/c8d206cb17e0daff93835fbb.jpg_200x200_996f0c1e.jpg",
+        "title": "中央电视台威海影视城",
+        "price":"42.5",
+        "city":"威海市"
+      },{
+        "id": "0012",
+        "imgUrl": "http://img1.qunarzz.com/tuan/team2/1507/31/64c4072b9fcc3.jpg_200x200_ddadd8a3.jpg",
+        "title": "威海神游海洋世界",
+        "price":"80",
+        "city":"威海华夏..."
+      },{
+        "id": "0013",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/201405/07/4632aace50dde64a9e80f64c39142fd6.jpg_200x200_1587b8ae.jpg",
+        "title": "幸福门",
+        "price":"27.9",
+        "city":"环翠区"
+      },{
+        "id": "0014",
+        "imgUrl": "http://img1.qunarzz.com/tuan/team2/1507/d4/7e04ca359e98d3.jpg_200x200_e17d215d.jpg",
+        "title": "鸡鸣岛",
+        "price":"55",
+        "city":"荣成市"
+      },{
+        "id": "0016",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1603/a6/a6e13ceda79d75f890.img.jpg_200x200_537acd17.jpg",
+        "title": "海驴岛",
+        "price":"14.9",
+        "city":"西霞口"
+      },{
+        "id": "0017",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/1807/44/44fb6eb8cfb0ccc7a3.img.jpg_200x200_442eaf1a.jpg",
+        "title": "威海威高海洋公园",
+        "price":"90",
+        "city":"威海"
+      },{
+        "id": "0018",
+        "imgUrl": "http://img1.qunarzz.com/sight/p0/201305/31/09d2e0a9df3f2990c8d65eac.jpg_200x200_9bbd2471.jpg",
+        "title": "摩天岭",
+        "price":"14.9",
+        "city":"西霞口"
+      }
+      ],
+      "weekendList": [{
+          "id": "0001",
+          "imgUrl": "http://img1.qunarzz.com/sight/source/1510/6e/1ea71e2f04e.jpg_r_640x214_aa6f091d.jpg",
+          "title": "北京温泉排行榜",
+          "desc": "细数北京温泉，温暖你的冬天"
+        }, {
+          "id": "0002",
+          "imgUrl": "http://img1.qunarzz.com/sight/source/1505/aa/7baaf8a851d221.jpg_r_640x214_1431200f.jpg",
+          "title": "北京必游TOP10",
+          "desc": "来北京必去的景点非这些地方莫属"
+        }, {
+          "id": "0003",
+          "imgUrl": "http://img1.qunarzz.com/sight/source/1505/9e/21df651e19af5d.jpg_r_640x214_3ea5bb38.jpg",
+          "title": "寻找北京的皇城范儿",
+          "desc": "数百年的宫廷庙宇，至今依旧威严霸气"
+        }, {
+          "id": "0004",
+          "imgUrl": "http://img1.qunarzz.com/sight/source/1505/ce/bc89bc2f0e33ea.jpg_r_640x214_3e408453.jpg",
+          "title": "学生最爱的博物馆",
+          "desc": "周末干嘛？北京很多博物馆已经免费开放啦"
+        }, {
+          "id": "0005",
+          "imgUrl": "http://img1.qunarzz.com/sight/source/1505/b2/fde1bfcd057a52.jpg_r_640x214_bbf3fa44.jpg",
+          "title": "儿童剧场，孩子的乐园",
+          "desc": "带宝贝观看演出，近距离体验艺术的无穷魅力"
+        }]
+    }
+  }

@@ -10,14 +10,15 @@
             <ul class="search-city-list">
                 <li @click="handlerCityClick(item.name)"
                     v-for="item in searchList" 
-                    :key="item.id">{{item.name}}
+                    :key="item.id">
+                    {{item.name}}
                 </li>
             </ul>
         </div>
         <div class="hot-city">
             <p class="list-title">热门城市</p>
             <ul>
-                <li @click="handleCityClick(item.name)" 
+                <li @click="handleCityClick(item.name,item.spell)" 
                     v-for="item in chotCities" 
                     :key="item.id">
                     {{item.name}}
@@ -60,8 +61,11 @@
             }
         },
         methods:{
-            handleCityClick(city){
-                this.$store.commit('mountCity',city);
+            handleCityClick(city,spell){
+                this.$store.commit('mountCity',{
+                    city,
+                    spell
+                });
                 this.$router.push('/');
             },
             allCityClick(city){
